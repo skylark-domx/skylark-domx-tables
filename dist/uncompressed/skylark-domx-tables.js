@@ -89,7 +89,13 @@
 define('skylark-domx-tables/tables',[
     "skylark-langx/skylark",
     "skylark-langx/langx",
-    "skylark-domx-query"
+    "skylark-domx-query",
+    "skylark-domx-styler",
+    "skylark-domx-eventer",
+    "skylark-domx-fx",
+    "skylark-domx-data",
+    "skylark-domx-finder",
+    "skylark-domx-geom"
 ], function(skylark, langx,$) {
   //TODO : don't use query
 
